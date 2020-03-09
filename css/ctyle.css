@@ -1,0 +1,48 @@
+:root{
+    --color-red: #ec5a62;
+    --color-grey: #949494;
+    --color-main: #5aec7a;
+    --color-second: #949494;
+}
+
+p{
+    color: var(--color-red);
+}
+
+h2{
+    font-size: 24px;
+    color: var(--color-grey);
+}
+
+.mainBlock{
+    margin: 30px;
+}
+
+.col-4 h2{
+margin: 10px;
+color: #c4c4c4;
+}
+
+.circle{
+    margin: 10px;
+}
+
+li p{
+    float: right;
+    margin: 25px;
+    color: #979799;
+}
+
+li{
+    background: #ebebed;
+    border: 1px solid #ffffff;
+    display: flex;
+}
+
+li:hover{
+    background: #c8cb0e;
+    z-index: 99;
+    position: relative;
+    transform: scale(1.1);
+    box-shadow: 0 0  25px 0 #1b1b1b85;
+}
