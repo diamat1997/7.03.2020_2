@@ -27,6 +27,10 @@ color: #c4c4c4;
     margin: 10px;
 }
 
+.search{
+    margin: 20px 50px;
+}
+
 li p{
     float: right;
     margin: 25px;
